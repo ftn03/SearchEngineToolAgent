@@ -1,4 +1,17 @@
-# Search Engine Tool Agent
+---
+title: SearchEngineToolAgent
+emoji: 🚀
+colorFrom: red
+colorTo: red
+sdk: docker
+app_port: 8501
+tags:
+  - streamlit
+pinned: false
+short_description: Streamlit & Langchain AI Chatbot and Agent
+---
+
+# Welcome to our App
 
 A conversational AI chatbot built with **Streamlit** and **LangChain** that can search the web, Wikipedia, and Arxiv to answer your questions.
 
@@ -43,12 +56,12 @@ cp .env.example .env
 
 Required keys:
 
-| Variable | Description |
-|---|---|
-| `OPENAI_API_KEY` | OpenAI API key (for GPT models) |
-| `GROQ_API_KEY` | Groq API key (optional, for Llama/Qwen models) |
-| `LANGCHAIN_API_KEY` | LangSmith API key (optional, for tracing) |
-| `LANGCHAIN_PROJECT` | LangSmith project name (optional) |
+| Variable            | Description                                    |
+| ------------------- | ---------------------------------------------- |
+| `OPENAI_API_KEY`    | OpenAI API key (for GPT models)                |
+| `GROQ_API_KEY`      | Groq API key (optional, for Llama/Qwen models) |
+| `LANGCHAIN_API_KEY` | LangSmith API key (optional, for tracing)      |
+| `LANGCHAIN_PROJECT` | LangSmith project name (optional)              |
 
 ### 4. Run the app
 
